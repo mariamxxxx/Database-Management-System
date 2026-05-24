@@ -1,0 +1,44 @@
+# Common build / IDE / OS ignores
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Build directories
+/bin/
+/out/
+/build/
+/target/
+
+# IDEs and editors
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Maven / Gradle
+.mvn/
+.gradle/
+build/
+
+# Logs
+*.log
+hs_err_pid*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Libraries (if you keep external jars locally, remove this line)
+# /lib/
+
+# Exclude course test folder (not included in repo)
+MS2 Tests/
+"MS2 Tests"/
