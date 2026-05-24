@@ -23,15 +23,3 @@ Repository layout
 Requirements
 
 - Java Development Kit (JDK) 11 or newer.
-
-Build
-
-```powershell
-javac -d bin -sourcepath src -cp "lib/*" src/DBMS/*.java
-```
-
-Run
-
-```powershell
-java -cp "bin;lib/*" DBMS.DBApp
-```
